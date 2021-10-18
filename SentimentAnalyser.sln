@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockData", "StockData\Stoc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETL", "ETL\ETL.csproj", "{E01F75F0-8F1F-43EC-A94B-A1EEC8775E48}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fsETLService", "fsETLService\fsETLService.fsproj", "{37DE4864-745D-4F73-9BE0-0429889A63B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E01F75F0-8F1F-43EC-A94B-A1EEC8775E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E01F75F0-8F1F-43EC-A94B-A1EEC8775E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E01F75F0-8F1F-43EC-A94B-A1EEC8775E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37DE4864-745D-4F73-9BE0-0429889A63B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37DE4864-745D-4F73-9BE0-0429889A63B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37DE4864-745D-4F73-9BE0-0429889A63B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37DE4864-745D-4F73-9BE0-0429889A63B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
