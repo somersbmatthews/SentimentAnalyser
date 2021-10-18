@@ -5,9 +5,11 @@ VisualStudioVersion = 17.0.31808.319
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockData", "StockData\StockData.csproj", "{686CACB8-B778-4F05-9DAD-74545CD889FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETL", "ETL\ETL.csproj", "{E01F75F0-8F1F-43EC-A94B-A1EEC8775E48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETL", "ETL\ETL.csproj", "{E01F75F0-8F1F-43EC-A94B-A1EEC8775E48}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fsETLService", "fsETLService\fsETLService.fsproj", "{37DE4864-745D-4F73-9BE0-0429889A63B8}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "fsETLService", "fsETLService\fsETLService.fsproj", "{37DE4864-745D-4F73-9BE0-0429889A63B8}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Frontend", "Frontend\Frontend.esproj", "{1BFCA413-CD30-48B8-8D63-D1943E5C48E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,12 @@ Global
 		{37DE4864-745D-4F73-9BE0-0429889A63B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37DE4864-745D-4F73-9BE0-0429889A63B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37DE4864-745D-4F73-9BE0-0429889A63B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BFCA413-CD30-48B8-8D63-D1943E5C48E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BFCA413-CD30-48B8-8D63-D1943E5C48E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BFCA413-CD30-48B8-8D63-D1943E5C48E8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1BFCA413-CD30-48B8-8D63-D1943E5C48E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BFCA413-CD30-48B8-8D63-D1943E5C48E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BFCA413-CD30-48B8-8D63-D1943E5C48E8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
